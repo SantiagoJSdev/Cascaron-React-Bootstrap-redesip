@@ -1,0 +1,81 @@
+.App_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.App_login {
+    /* border: 2px solid #84C34E; */
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #86bd24;
+    position: relative;
+ 
+}
+.App_container {
+    width: 40%;
+    height: 80%;
+    border: 2px solid #84C34E;
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    gap: 25px;
+    background: white;
+}
+.img-fluid {
+    width: 80%;
+    object-fit: cover;
+}
+.absolute__message {
+    color: red;
+    margin-top: 20px;
+}
+.input-group_login  {
+    width: 100% !important ; 
+}
+
+.form__container_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.container__QR {
+    width: 40%;
+    /* position: absolute;
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    right: 0; */
+}
+.contentImg_div {
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.container__url {
+    /* position: absolute;
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+    left: 0; */
+}
+
+.App_container__contentImg {
+    display: flex;
+    justify-content: space-between;
+}
+.App_container__contentImg > img {
+    /* width: 40%; */ 
+    
+}

@@ -1,0 +1,19 @@
+
+.container_home {
+    width: 100%;  
+}
+.container_table { 
+    padding: 15px;
+    margin-top: 100px;
+    border: 2px solid red;
+}
+.editable { 
+    font-size: calc(0.8vw + 0.8vmin);
+}
+.td_logo {
+  border: 2px solid red;
+}
+.td_logo > img {
+    width: 30px;
+    cursor: pointer;
+}
